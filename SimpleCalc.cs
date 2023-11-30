@@ -83,7 +83,7 @@ class Calculator
             // Ask the user if they want to continue
             Console.Write("Do you want to continue? (y/n): ");
             string continueInput = Console.ReadLine();
-
+            
             if (continueInput.ToLower() != "y")
             {
                 Console.WriteLine("Exiting the calculator.");
